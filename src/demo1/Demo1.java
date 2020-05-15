@@ -14,9 +14,14 @@ public class Demo1 {
     /**
      * @param args the command line arguments
      */
+    static void helloWorld()
+    {
+        System.out.println("Hellow World!");
+    }
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Merge is done");
+        helloWorld();
     }
     
 }
